@@ -15,7 +15,7 @@ pipeline {
 
     stage('Depoly') {
       steps {
-        sh 'docker info | grep -i version'
+        sh 'echo "This is the 3rd stage"'
       }
     }
 
