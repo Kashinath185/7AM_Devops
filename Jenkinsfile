@@ -15,7 +15,10 @@ pipeline {
 
     stage('Depoly') {
       steps {
-        sh 'echo "This is the 3rd stage"'
+        sh '''
+        echo "This is the 3rd stage"
+        echo "Third stage is complete"
+        '''
       }
     }
 
